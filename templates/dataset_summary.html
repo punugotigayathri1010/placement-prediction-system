@@ -1,0 +1,21 @@
+{% extends "base.html" %}
+
+{% block title %}Dataset Summary{% endblock %}
+
+{% block content %}
+
+<div class="page">
+    <h1>Dataset Summary</h1>
+
+    <div class="table-container">
+        {{ summary|safe }}
+    </div>
+
+    <br>
+
+    <a href="/dataset">
+        <button>Back</button>
+    </a>
+</div>
+
+{% endblock %}
