@@ -2,16 +2,12 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
 
-
-
-
 # Define the path to your specific CSV dataset
 # 1. Load Dataset
 
 
 print("1. Load the Dataset")
-file_path = r'C:\Users\punug\OneDrive\Desktop\fourth-sem\machine_learning\placement_prediction\dataset\placement_predict_50K_Raw.csv'
-
+file_path = 'C:/Users/punug/OneDrive/Desktop/fourth-sem/machine_learning/placement_prediction/dataset/placement_predict_50K_Raw.csv'
 
 try:
    # Read the CSV file into a DataFrame
@@ -23,7 +19,7 @@ try:
    print("1. Dataset Contents:")
    print("-----------------------------------")
    print(df)
-x
+
 
    # Display additional information
    print("-----------------------------------")
@@ -175,10 +171,3 @@ except FileNotFoundError:
    print(f"Error: The file at '{file_path}' was not found.")
 except Exception as e:
    print(f"An error occurred: {e}")
-
-
-
-
-
-
-
